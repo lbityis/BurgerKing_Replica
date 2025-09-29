@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+nav {
+    text-align: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(201, 200, 196);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 30px 10px 30px;
+}
+
+.nav_1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav_1 a {
+    text-decoration: none;
+    color: brown;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.nav_1 img {
+    width: 70px;
+    height: 70px;
+}
+
+.nav_1 i {
+    color: brown;
+}
+
+.Inscribirse {
+    background-color: brown;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.handbag {
+    background-color: rgb(110, 56, 16);
+    color: aliceblue;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 30px;
+}
+
+.idioma {
+display: flex;
+    justify-content: flex-end;
+    margin: 10px 40px;
+}
+
+.idioma a {
+    text-decoration: none;
+    color: brown;
+}
+
+.bienvenida {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(122, 70, 70);
+    color: aliceblue;
+    padding: 20px;
+}
+
+.bienvenida button {
+    background-color: rgb(122, 70, 70);
+    border: 1px solid aliceblue;
+    border-radius: 40px;
+    padding: 10px 10px;
+    color: aliceblue;
+}
+
+.bienvenida i {
+    color: brown;
+    background-color: blanchedalmond;
+    border-radius: 100%;
+    padding: 6px;
+    margin-right: 10px;
+    font-size: 20px;
+    align-items: center;
+}
