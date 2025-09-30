@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: bisque;
+    background-color: #f5eada;
 }
 
 nav {
     text-align: center;
     align-items: center;
-    border-bottom: 2px solid rgb(201, 200, 196);
+    border-bottom: 2px solid #c4af9e;
 }
 
 .nav-container {
@@ -28,7 +28,7 @@ nav {
 
 .nav_1 a {
     text-decoration: none;
-    color: brown;
+    color: #502314;
     margin: 10px;
     font-size: 20px;
 }
@@ -39,11 +39,11 @@ nav {
 }
 
 .nav_1 i {
-    color: brown;
+    color: #502314;
 }
 
 .Inscribirse {
-    background-color: brown;
+    background-color: #ea1d03;
     color: aliceblue;
     border: none;
     border-radius: 20px;
@@ -52,7 +52,7 @@ nav {
 }
 
 .handbag {
-    background-color: rgb(110, 56, 16);
+    background-color: #502314;
     color: aliceblue;
     border: none;
     border-radius: 40px;
@@ -60,27 +60,27 @@ nav {
 }
 
 .idioma {
-display: flex;
+    display: flex;
     justify-content: flex-end;
     margin: 10px 40px;
 }
 
 .idioma a {
     text-decoration: none;
-    color: brown;
+    color: #c4af9e;
 }
 
 .bienvenida {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(122, 70, 70);
+    background-color: #502314;
     color: aliceblue;
     padding: 20px;
 }
 
 .bienvenida button {
-    background-color: rgb(122, 70, 70);
+    background-color: #502314;
     border: 1px solid aliceblue;
     border-radius: 40px;
     padding: 10px 10px;
@@ -88,11 +88,18 @@ display: flex;
 }
 
 .bienvenida i {
-    color: brown;
-    background-color: blanchedalmond;
+    color: #ea1d03;
+    background-color: #e6d1c1;
     border-radius: 100%;
     padding: 6px;
     margin-right: 10px;
     font-size: 20px;
     align-items: center;
 }
+
+.container {
+ display: flex;
+ justify-content: center;
+}
+
+
