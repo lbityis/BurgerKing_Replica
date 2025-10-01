@@ -98,8 +98,22 @@ nav {
 }
 
 .container {
- display: flex;
- justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
+.row {
+    display: flex;
+    flex-direction: column;
+}
 
+.tarjet {
+    background-color: azure;
+    color: #502314;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.tarjet img {
+    width: 500px;
+}
