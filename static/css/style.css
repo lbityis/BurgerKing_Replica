@@ -128,15 +128,14 @@ nav {
 }
 
 .text {
-    width: 400px;
     padding: 20px;
     height: 500px;
 }
 
 .text p {
     margin-top: 10px;
-
     font-size: 15px;
+    width: 400px;
 }
 
 .botoncin {
@@ -155,32 +154,27 @@ nav {
 
 .final {
     background-color: #c4af9e;
+    color: #522617;
     display: flex;
     justify-content: center;
-    padding: 20px 100px;
+}
+
+.finalcontainer {
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .finalimg img {
     width: 400px;
-    height: 800px;
-    margin-top: 90px;
+    height: 500px;
+    margin-top: 100px;
 }
 
-.textfinal {
-    display: flex;
-    flex-direction: column;
-   justify-content: center;
-   color: #522617;
-}
-
-.textfinal img {
+.parte1 h2 {
+    margin-top: 20px;
+    font-size: 45px;
+    font-family: "Titan One", sans-serif;
     width: 400px;
-    height: 200px;
-    display: flex;
-    justify-content: start;
 }
 
-.textfinal p {
-    font-size: 15px;
-    width: 470px;
-}
